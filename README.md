@@ -48,3 +48,9 @@ let package = Package(
 - Finally build the `DemoApp` target and it should work
 
 From here on you are ready to continue developing your Demo application and SPM in tandem.
+
+### Linking
+
+- Link to any other app by tagging your code 
+- and pushing into a public repo
+- then import using xcode SPM standard tool
