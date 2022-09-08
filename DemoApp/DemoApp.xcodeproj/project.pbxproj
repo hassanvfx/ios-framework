@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5CB21B4528BEE34B00B39783 /* Framework in Frameworks */ = {isa = PBXBuildFile; productRef = 5CB21B4428BEE34B00B39783 /* Framework */; };
 		5CFCCF9D28BEE2B8001CD397 /* DemoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFCCF9C28BEE2B8001CD397 /* DemoAppApp.swift */; };
 		5CFCCF9F28BEE2B8001CD397 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFCCF9E28BEE2B8001CD397 /* ContentView.swift */; };
 		5CFCCFA128BEE2B9001CD397 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CFCCFA028BEE2B9001CD397 /* Assets.xcassets */; };
@@ -15,6 +14,7 @@
 		5CFCCFAE28BEE2B9001CD397 /* DemoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFCCFAD28BEE2B9001CD397 /* DemoAppTests.swift */; };
 		5CFCCFB828BEE2B9001CD397 /* DemoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFCCFB728BEE2B9001CD397 /* DemoAppUITests.swift */; };
 		5CFCCFBA28BEE2B9001CD397 /* DemoAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFCCFB928BEE2B9001CD397 /* DemoAppUITestsLaunchTests.swift */; };
+		C942622D28C97736001C48B2 /* FrameworkLib in Frameworks */ = {isa = PBXBuildFile; productRef = C942622C28C97736001C48B2 /* FrameworkLib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,7 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CB21B4528BEE34B00B39783 /* Framework in Frameworks */,
+				C942622D28C97736001C48B2 /* FrameworkLib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,7 +156,7 @@
 			);
 			name = DemoApp;
 			packageProductDependencies = (
-				5CB21B4428BEE34B00B39783 /* Framework */,
+				C942622C28C97736001C48B2 /* FrameworkLib */,
 			);
 			productName = DemoApp;
 			productReference = 5CFCCF9928BEE2B8001CD397 /* DemoApp.app */;
@@ -594,9 +594,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		5CB21B4428BEE34B00B39783 /* Framework */ = {
+		C942622C28C97736001C48B2 /* FrameworkLib */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = Framework;
+			productName = FrameworkLib;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

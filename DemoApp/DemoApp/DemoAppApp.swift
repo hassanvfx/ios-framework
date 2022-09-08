@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import Framework
+import FrameworkLib
 
 class Model:ObservableObject{
     init(){
