@@ -5,6 +5,6 @@ public struct Framework {
     }
     
     public func test(){
-        print("Framework linked!")
+        print("FrameworkLib linked!")
     }
 }
