@@ -17,6 +17,7 @@ The following offers a base template as a starting  point for any SPM related pr
 - open the `Xcode workspace` inside `DemoApp`
 - notice inside the workspace both the `SPM` and the `DemoApp`
 
+
 ### LIB UPDATE (SPM FOLDER)
 - Open the `Package.swift` and update the following `{YOUR_FRAMEWORK_NAME}Lib` template :
 
@@ -46,7 +47,8 @@ let package = Package(
   - remove the placeholder "Framework" import
   - add your library target  called `{YOUR_FRAMEWORK_NAME}Lib`
 - Open the swift file `DemoAppApp.swift` and rename the `import Framework` to match  `import {YOUR_FRAMEWORK_NAME}Lib`
-- Finally build the `DemoApp` target and it should work
+- As confirmation build the `DemoApp` target and it should work
+- Finally rename `DemoApp` project by `{YOUR_FRAMEWORK_NAME}`
 
 From here on you are ready to continue developing your Demo application and SPM in tandem.
 
