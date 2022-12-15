@@ -49,7 +49,8 @@ let package = Package(
   - add your library target  called `{YOUR_FRAMEWORK_NAME}Lib`
 - Open the swift file `DemoAppApp.swift` and rename the `import Framework` to match  `import {YOUR_FRAMEWORK_NAME}Lib`
 - As confirmation build the `DemoApp` target and it should work
-- Finally rename `DemoApp` project by `{YOUR_FRAMEWORK_NAME}`
+- Update the `bundle identifier` to match `spree3d.com.{YOUR_FRAMEWORK_NAME}`
+- Update code signing as needed
 
 From here on you are ready to continue developing your Demo application and SPM in tandem.
 
