@@ -14,8 +14,9 @@ The following offers a base template as a starting  point for any SPM related pr
 - rename folder `ios-{YOUR_FRAMEWORK_NAME}`
 - remove the origin `git remote remove origin`
 - add your own origin `git remote add {your origin}`
-- open the `Xcode workspace` inside `DemoApp`
+- open the `Xcode project` inside `DemoApp`
 - notice inside the workspace both the `SPM` and the `DemoApp`
+- rename `Xcode project` called `DemoApp.xcodeproj` by a relevant `{YOUR_FRAMEWORK_NAME}.xcodeproj`
 
 
 ### LIB UPDATE (SPM FOLDER)
