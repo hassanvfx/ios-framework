@@ -9,7 +9,7 @@ The following offers a base template as a starting  point for any SPM related pr
 
 # How to use?
 
-### PREPARTION
+### PREPARATION
 - clone the repo
 - rename folder `ios-{YOUR_FRAMEWORK_NAME}`
 - remove the origin `git remote remove origin`
@@ -17,6 +17,12 @@ The following offers a base template as a starting  point for any SPM related pr
 - open the `Xcode project` inside `DemoApp`
 - notice inside the workspace both the `SPM` and the `DemoApp`
 - rename `Xcode project` called `DemoApp.xcodeproj` by a relevant `{YOUR_FRAMEWORK_NAME}.xcodeproj`
+
+# How to name your module?
+
+- {ModuleName}Lib -> if the framework doesn't feature any UI
+- {ModuleName}Kit -> if the framework features both models and UI elements
+- {ModuleName}SDK -> if the framework is a development toolset
 
 
 ### LIB UPDATE (SPM FOLDER)
