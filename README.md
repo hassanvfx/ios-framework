@@ -17,7 +17,7 @@ The following offers a base template as a starting point for any SPM related pro
 
 - Clone the repo
 - Optionally prepare an empty Github Repo and obtain the correct https or SSH address
-- Simple run the ./config script
+- Simple run the `./config` script
 - Enter your SPM name
 - Optionally enter the empty remote GH repo you want to push
 - Notice that the folder containing the repo has changed to ios-{YourFramework}
