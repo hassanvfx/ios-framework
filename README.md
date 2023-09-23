@@ -1,4 +1,4 @@
-# SPM Framework Template
+# SPM Tandem App
 
 The following offers a base template as a starting point for any SPM related project, while provifing an embeded DemoApp meant to demonstrate the implementation but also to easily test the framework. The demo App dynamically links the SPM folder immediately reflecting any changes in the framework without need of publishing changes to the repository.
 
@@ -42,7 +42,7 @@ The following offers a base template as a starting point for any SPM related pro
 
 The following is only required in case the autmatic script is not enough, and are basically the same steps
 
-## Folder updates
+### Folder updates
 - clone the repo
 - rename folder `ios-{YOUR_FRAMEWORK_NAME}`
 - remove the origin `git remote remove origin`
@@ -51,7 +51,7 @@ The following is only required in case the autmatic script is not enough, and ar
 - notice inside the workspace both the `SPM` and the `DemoApp`
 - rename `Xcode project` called `DemoApp.xcodeproj` by a relevant `{YOUR_FRAMEWORK_NAME}.xcodeproj`
 
-## Package.swift updates
+### Package.swift updates
 - Open the `Package.swift` and update the following `{YOUR_FRAMEWORK_NAME}Lib` template :
 
 ```
@@ -75,7 +75,7 @@ let package = Package(
 - Rename the folder at `Sources/FrameworkLib` to match `Source/{YOUR_FRAMEWORK_NAME}Lib`
 - After saving this changes you may expect the `xcode schemas list` to display a new target called `{YOUR_FRAMEWORK_NAME}Lib` else, verify any errors before continuing
 
-## XCode Projects Updates
+### XCode Projects Updates
 - Open the `DemoApp Target` settings, in `General` go to `Frameworks` and:
   - remove the placeholder "Framework" import
   - add your library target  called `{YOUR_FRAMEWORK_NAME}Lib`
