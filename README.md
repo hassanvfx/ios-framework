@@ -15,6 +15,7 @@ The following offers a base template as a starting point for any SPM related pro
 
 # Automatic Stup
 <img width="419" alt="image" src="https://github.com/hassanvfx/ios-framework/assets/425926/8cb61044-36ba-48e4-9a0d-e2b736d767af">
+
 - Clone the repo
 - Optionally prepare an empty Github Repo and obtain the correct https or SSH address
 - Simple run the `./config` script
