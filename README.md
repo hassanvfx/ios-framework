@@ -34,6 +34,10 @@ Features:
 - Create a tag and push with `git push origin --tags`.
 - You can then link your new library to any specific tag.
 
+## Ceveats
+
+This project structure has the side effect of showing the DemoApp folder twice, one within the ios-framework and another as the main app. Simple avoid accesing the DemoApp folder from the ios-framework top directory.
+
 ## Notes:
 1. Feel free to remove either the Framework Test target, and/or the Demo App XCTest, and/or XCUITest targets in case that either one is not in use in your case.
 1. DemoApp should be simple and expose the framework's use, not intended to demonstrate anything else. In case that is needed to show the use of one specific feature the approach should be to write a DemoApp XCUITest or a new DemoApp target.
