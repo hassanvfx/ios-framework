@@ -34,7 +34,7 @@ Features:
 - Create a tag and push with `git push origin --tags`.
 - You can then link your new library to any specific tag.
 
-## Ceveats
+## Caveats
 
 This project structure has the side effect of showing the DemoApp folder twice, one within the ios-framework and another as the main app. Simple avoid accesing the DemoApp folder from the ios-framework top directory.
 
