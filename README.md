@@ -1,43 +1,44 @@
 # SPM Tandem App
 
-The following offers a base template as a starting point for any SPM related project, while provifing an embeded DemoApp meant to demonstrate the implementation but also to easily test the framework. The demo App dynamically links the SPM folder immediately reflecting any changes in the framework without need of publishing changes to the repository.
+This repository provides a base template for any Swift Package Manager (SPM) related project. It includes an embedded DemoApp designed to demonstrate the implementation and facilitate easy testing of the framework. The DemoApp dynamically links to the SPM folder, instantly reflecting any changes in the framework without the need to publish changes to the repository.
 
-- DemoApp dynamically links the SPM through Xcode special linking feature
-- Changes in SPM reflect immdiately in the DemoApp
-- Ensures the Library will be compiled when exported
-- In order to link from other aps, publish to GH and create  TAG version
+Features:
+- The DemoApp dynamically links to the SPM using Xcode's special linking feature.
+- Changes in the SPM are immediately reflected in the DemoApp.
+- The library will be compiled when exported.
+- To link from other apps, publish to GitHub and create a TAG version.
 
 # Naming Conventions
 
-- {ModuleName}Lib -> if the framework doesn't feature any UI
-- {ModuleName}Kit -> if the framework features both models and UI elements
-- {ModuleName}SDK -> if the framework is a development toolset
+- {ModuleName}Lib: Use this if the framework doesn't feature any UI.
+- {ModuleName}Kit: Use this if the framework features both models and UI elements.
+- {ModuleName}SDK: Use this if the framework is a development toolset.
 
-# Automatic Stup
+# Automatic Setup
 <img width="419" alt="image" src="https://github.com/hassanvfx/ios-framework/assets/425926/8cb61044-36ba-48e4-9a0d-e2b736d767af">
 
-- Clone the repo
-- Optionally prepare an empty Github Repo and obtain the correct https or SSH address
-- Simple run the `./config` script
-- Enter your SPM name
-- Optionally enter the empty remote GH repo you want to push
-- Notice that the folder containing the repo has changed to ios-{YourFramework}
+- Clone the repository.
+- Optionally, prepare an empty GitHub repository and obtain the correct HTTPS or SSH address.
+- Run the `./config` script.
+- Enter your SPM name.
+- Optionally, enter the empty remote GitHub repository you want to push to.
+- Note that the folder containing the repository has changed to ios-{YourFramework}.
 
 # Testing
 
-- After running the config tool, go into the DemoApp folder and run the Xcode Project
+- After running the config tool, navigate to the DemoApp folder and run the Xcode Project.
 
 # SPM Linking
 
-- Make sure to run the config tool and upload the SPM to GH
-- Create a tag and push with `git push origin --tags`
-- Then you can link your new libary to any specific tag
+- Ensure to run the config tool and upload the SPM to GitHub.
+- Create a tag and push with `git push origin --tags`.
+- You can then link your new library to any specific tag.
 
 ## Notes:
 1. Feel free to remove either the Framework Test target, and/or the Demo App XCTest, and/or XCUITest targets in case that either one is not in use in your case.
 1. DemoApp should be simple and expose the framework's use, not intended to demonstrate anything else. In case that is needed to show the use of one specific feature the approach should be to write a DemoApp XCUITest or a new DemoApp target.
   
-
+---------
 # Manual Setup
 
 The following is only required in case the autmatic script is not enough, and are basically the same steps
