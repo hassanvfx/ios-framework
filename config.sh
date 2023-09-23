@@ -40,13 +40,21 @@ rm -rf .git
 git init
 git branch -m main
 
+# Replace the contents of the README
+echo "# $framework_name" > README.md
+echo "" >> README.md
+echo "This framework was built with the ios-framework  config tool." >> README.md
+echo "[https://github.com/hassanvfx/ios-framework](https://github.com/hassanvfx/ios-framework)" >> README.md
+
+git add .
+git commit -am 'initial commit'
+
 # If a remote was provided, add it
 if [ -n "$remote" ]; then
     git remote add origin $remote
-    git add .
-    git commit -am 'initial commit'
     git push origin main
 fi
+
 
 # Rename the Xcode project
 
