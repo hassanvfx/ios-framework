@@ -4,6 +4,13 @@
 ## Overview
 This repository serves as a base template for Swift Package Manager (SPM) related projects. It includes a DemoApp that demonstrates the implementation and testing of the framework. The DemoApp dynamically links to the SPM folder, reflecting any changes in the framework instantly without the need to publish changes to the repository.
 
+## Medium Tutorial
+
+Please visit the following link for an in-depth analysis on iOS Codebase moularization.
+- https://twinchat.medium.com/building-reactive-applications-with-swiftui-and-combine-a-tutorial-on-ios-app-simple3d-25d18eef7649
+
+## Apple Docs
+
 Please note that while this Tandem App follows the general implementation principles outlined by Apple, it introduces an opinionated variation. The main advantage of this approach is its focus on automation and the placement of the SPM Package.swift at the top level. This setup ensures standardized external linking while keeping the DemoApp organized within its dedicated subfolder.
 
 Apple references:
