@@ -3,6 +3,13 @@
 
 This repository provides a base template for any Swift Package Manager (SPM) related project. It includes an embedded DemoApp designed to demonstrate the implementation and facilitate easy testing of the framework. The DemoApp dynamically links to the SPM folder, instantly reflecting any changes in the framework without the need to publish changes to the repository.
 
+It’s important to note that while this Tandem App follows the general implementation principles originally outlined by Apple, this solution introduces an opinionated variation. The primary advantage of this approach is its emphasis on automation and the placement of the SPM Package.swift at the top level. This configuration ensures standardized external linking while maintaining the organization of the DemoApp within its dedicated subfolder.
+
+Apple references:
+
+1. https://developer.apple.com/documentation/xcode/developing-a-swift-package-in-tandem-with-an-app
+1. https://developer.apple.com/documentation/xcode/editing-a-package-dependency-as-a-local-package
+
 Features:
 - The DemoApp dynamically links to the SPM using Xcode's special linking feature.
 - Changes in the SPM are immediately reflected in the DemoApp.
