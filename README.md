@@ -27,7 +27,7 @@ Features:
 
 - Clone the repository.
 - Optionally, prepare an empty GitHub repository and obtain the correct HTTPS or SSH address.
-- Run the `./config` script.
+- Run the `./config.sh` script.
 - Enter your SPM name.
 - Optionally, enter the empty remote GitHub repository you want to push to.
 - Note that the folder containing the repository has changed to ios-{YourFramework}.
