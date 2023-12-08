@@ -8,16 +8,8 @@
 import SwiftUI
 import FrameworkLib
 
-class Model:ObservableObject{
-    init(){
-        let framework = Framework()
-        framework.test()
-    }
-}
-
 @main
 struct DemoAppApp: App {
-    @ObservedObject var model = Model()
     var body: some Scene {
         WindowGroup {
             ContentView()
