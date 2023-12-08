@@ -1,3 +1,1 @@
-public struct Framework {
-   
-}
+public struct Framework {}
