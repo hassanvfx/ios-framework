@@ -38,6 +38,10 @@ Apple references:
 - Create a tag and push with `git push origin --tags`.
 - You can then link your new library to any specific tag.
 
+## Versioning
+If you want to automate your semantic version check out this handy command line util:
+https://github.com/hassanvfx/versioned_tag
+
 ## Caveats
 The project structure shows the DemoApp folder twice, once within the ios-framework and again as the main app. Avoid accessing the DemoApp folder from the ios-framework top directory.
 
