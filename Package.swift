@@ -5,8 +5,12 @@ import PackageDescription
 
 let package = Package(
     name: "FrameworkLib",
+    platforms: [
+        .iOS(.v15), // iOS 15 and later
+        .macOS(.v12), // macOS 12 and later (corresponding to iOS 15)
+        .watchOS(.v8) // watchOS 8 and later (corresponding to iOS 15)
+    ],
     products: [
-        // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "FrameworkLib",
             targets: ["FrameworkLib"]
@@ -14,18 +18,27 @@ let package = Package(
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        // .package(url: /* package url */, from: "1.0.0"),
+        // Example: .package(url: "https://example.com/ExamplePackage.git", from: "1.0.0"),
     ],
     targets: [
-        // Targets are the basic building blocks of a package. A target can define a module or a test suite.
-        // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "FrameworkLib",
-            dependencies: []
+            dependencies: [
+                // .product(name: "SomeProduct", package: "SomeOtherPackage")
+            ],
+            // swiftSettings: [
+            //     .define("SOME_CONDITIONAL_FLAG")
+            // ],
+            // linkerSettings: [
+            //     .linkedFramework("SomeFramework")
+            // ]
         ),
         .testTarget(
             name: "FrameworkLibTests",
             dependencies: ["FrameworkLib"]
         ),
-    ]
+    ],
+    swiftLanguageVersions: [.v5],
+    // cLanguageStandard: .gnu11,
+    // cxxLanguageStandard: .gnucxx11
 )
