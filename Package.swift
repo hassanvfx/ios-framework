@@ -25,8 +25,8 @@ let package = Package(
             name: "FrameworkLib",
             dependencies: [
                 // .product(name: "SomeProduct", package: "SomeOtherPackage")
-            ],
-            // swiftSettings: [
+            ]
+            // ,swiftSettings: [
             //     .define("SOME_CONDITIONAL_FLAG")
             // ],
             // linkerSettings: [
@@ -38,7 +38,7 @@ let package = Package(
             dependencies: ["FrameworkLib"]
         ),
     ],
-    swiftLanguageVersions: [.v5],
-    // cLanguageStandard: .gnu11,
+    swiftLanguageVersions: [.v5]
+    // ,cLanguageStandard: .gnu11,
     // cxxLanguageStandard: .gnucxx11
 )
