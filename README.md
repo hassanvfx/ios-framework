@@ -7,7 +7,7 @@ SwiftSPM is a powerful and user-friendly Swift Package Manager (SPM) template an
 ## Key Features
 - **Dynamic Linking:** The DemoApp dynamically links to the SPM folder, enabling immediate reflection of any changes in the framework without the need for repository updates.
 - **Instant Reflection:** Any changes made in the SPM are instantly reflected in the DemoApp.
-- **Library Compilation:** The library is compiled when exported.
+- **Configuration tool:** Run one command line to rename the library and optionally upload to your GH repo
 - **Linking from Other Apps:** You can link from other apps by publishing to GitHub and creating a TAG version.
 
 ## Tutorial & Documentation
