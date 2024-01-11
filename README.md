@@ -1,5 +1,18 @@
 # SwiftSPM: Your Swift Package Manager Configuration Tool
+
+![image](https://github.com/hassanvfx/ios-framework/assets/425926/c0266ac8-6ef4-43df-8e84-f0d450a470d4)
+
+
+## Quick Setup
 ![SwiftSPM](https://github.com/hassanvfx/ios-framework/assets/425926/0e2d791e-15f7-467e-8ddb-04ebb871796d)
+![Setup](https://github.com/hassanvfx/ios-framework/assets/425926/8cb61044-36ba-48e4-9a0d-e2b736d767af)
+
+- Clone the repository.
+- Optionally, prepare an empty GitHub repository and get the HTTPS or SSH address.
+- Run the `./config.sh` script.
+- Enter your SPM name.
+- Optionally, enter the empty remote GitHub repository you want to push to.
+- The folder containing the repository will change to ios-{YourFramework}.
 
 ## Overview
 SwiftSPM is a powerful and user-friendly Swift Package Manager (SPM) template and configuration tool. It allows you to clone and rename all your symbols, creating your own custom SDK library, MyOwnSDK, in conjunction with a test Tandem App in a matter of seconds. 
@@ -9,6 +22,8 @@ SwiftSPM is a powerful and user-friendly Swift Package Manager (SPM) template an
 - **Instant Reflection:** Any changes made in the SPM are instantly reflected in the DemoApp.
 - **Configuration tool:** Run one command line to rename the library and optionally upload to your GH repo
 - **Linking from Other Apps:** You can link from other apps by publishing to GitHub and creating a TAG version.
+- **AES.GCM + 256 SecureKey Encryption** As suggested by [Dave Poireir](https://www.linkedin.com/in/dave-poirier-a9b25a9/)
+- **Swift Actor for Tread Safety** As suggested by [Dave Poireir](https://www.linkedin.com/in/dave-poirier-a9b25a9/)
 
 ## Tutorial & Documentation
 For a comprehensive analysis on iOS Codebase modularization, please visit the following link:
@@ -19,16 +34,6 @@ While SwiftSPM adheres to Apple's general implementation principles, it introduc
 Apple references:
 1. [Developing a Swift Package in Tandem with an App](https://developer.apple.com/documentation/xcode/developing-a-swift-package-in-tandem-with-an-app)
 2. [Editing a Package Dependency as a Local Package](https://developer.apple.com/documentation/xcode/editing-a-package-dependency-as-a-local-package)
-
-## Quick Setup
-![Setup](https://github.com/hassanvfx/ios-framework/assets/425926/8cb61044-36ba-48e4-9a0d-e2b736d767af)
-
-- Clone the repository.
-- Optionally, prepare an empty GitHub repository and get the HTTPS or SSH address.
-- Run the `./config.sh` script.
-- Enter your SPM name.
-- Optionally, enter the empty remote GitHub repository you want to push to.
-- The folder containing the repository will change to ios-{YourFramework}.
 
 ## Testing
 - After running the config tool, navigate to the DemoApp folder and run the Xcode Project.
