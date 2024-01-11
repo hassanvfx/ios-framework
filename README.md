@@ -9,9 +9,6 @@ SwiftSPM is a powerful and user-friendly Swift Package Manager (SPM) template an
 - **Dynamic Linking:** The DemoApp dynamically links to the SPM folder, enabling immediate reflection of any changes in the framework without the need for repository updates.
 - **Instant Reflection:** Any changes made in the SPM are instantly reflected in the DemoApp.
 - **Configuration tool:** Run one command line to rename the library and optionally upload to your GH repo
-- **Linking from Other Apps:** You can link from other apps by publishing to GitHub and creating a TAG version.
-- **AES.GCM + 256 SecureKey Encryption** As suggested by [Dave Poireir](https://www.linkedin.com/in/dave-poirier-a9b25a9/)
-- **Swift Actor for Tread Safety** As suggested by [Dave Poireir](https://www.linkedin.com/in/dave-poirier-a9b25a9/)
 
 # Quick Setup
 ![SwiftSPM](https://github.com/hassanvfx/ios-framework/assets/425926/0e2d791e-15f7-467e-8ddb-04ebb871796d)
